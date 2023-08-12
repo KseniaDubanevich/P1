@@ -1,0 +1,21 @@
+#assign integer variable a
+a = 1
+type_a = type(a)
+print(f'type of variable a is {type_a}')
+#assign float variable b
+b = 1.2
+type_b = type(b)
+print(f"type of variable b is {type_b}")
+#assign text variable c
+c = "horse"
+type_c = type(c)
+print(f"type of variable c is {type_c}")
+#assign list variable d
+d = ["1", "56"]
+type_d = type(d)
+print(f"type of variable d is {type_d}, with value {d}")
+
+#assign dictionary variable e
+e = {"key1": "values"}
+type_e = type(e)
+print(f"type of variable e is {type_e}, with value {e}")
